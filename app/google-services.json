@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "848027868269",
+    "project_id": "viewpager2-cac5a",
+    "storage_bucket": "viewpager2-cac5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848027868269:android:bafed12d5d054176e63364",
+        "android_client_info": {
+          "package_name": "idv.example.viewpager2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848027868269-hae6q7h8v6u7bnmp23919htcimubii2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWvAyn-1_oruHHCScXEM1b9tZ9eKMjRYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848027868269-hae6q7h8v6u7bnmp23919htcimubii2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

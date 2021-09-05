@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/indexFragment">
+
+    <fragment
+        android:id="@+id/indexFragment"
+        android:name="idv.example.viewpager2.IndexFragment"
+        android:label="fragment_index"
+        tools:layout="@layout/fragment_index" >
+        <action
+            android:id="@+id/action_indexFragment_to_ModifyFragment"
+            app:destination="@id/ModifyFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/OrderStateReadyFragment"
+        android:name="idv.example.viewpager2.OrderStateReadyFragment"
+        android:label="fragment_orderstateready"
+        tools:layout="@layout/fragment_order_state_ready" />
+
+    <fragment
+        android:id="@+id/OrderStateShippedFragment"
+        android:name="idv.example.viewpager2.OrderStateShippedFragment"
+        android:label="fragment_orderstateshipped"
+        tools:layout="@layout/fragment_order_state_shipped" />
+
+    <fragment
+        android:id="@+id/OrderStateReceivedFragment"
+        android:name="idv.example.viewpager2.OrderStateReceivedFragment"
+        android:label="fragment_orderstatereceived"
+        tools:layout="@layout/fragment_order_state_received" />
+
+    <fragment
+        android:id="@+id/OrderStateCanceledFragment"
+        android:name="idv.example.viewpager2.OrderStateCanceledFragment"
+        android:label="fragment_orderstatecanceled"
+        tools:layout="@layout/fragment_order_state_canceled" />
+    <fragment
+        android:id="@+id/ModifyFragment"
+        android:name="idv.example.viewpager2.ModifyFragment"
+        android:label="fragment_modify"
+        tools:layout="@layout/fragment_modify" >
+        <action
+            android:id="@+id/action_ModifyFragment_to_indexFragment"
+            app:destination="@id/indexFragment" />
+    </fragment>
+</navigation>
